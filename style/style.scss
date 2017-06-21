@@ -1,0 +1,36 @@
+$test: #ad4040;
+
+
+h1{
+    color: $test;
+}
+
+
+
+
+/////////scss review////////
+
+
+
+///compiling sass     sass --watch style.scss:style.css
+//this watches for changes in the sass code and applies those changes to the css file
+
+//this is how you create and use a variable with sass 
+
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+
+
+
+
+
+
+
